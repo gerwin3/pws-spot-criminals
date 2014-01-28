@@ -1,4 +1,4 @@
-pws-spot-criminals
-==================
+Spotting Criminals by Face
+==========================
 
-Learning an Artificial Neural Network the difference between criminal and non-criminal faces.
+This code is an attachment to a report on using ANN's to distinguish criminals by their facial features.
