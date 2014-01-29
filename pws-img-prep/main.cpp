@@ -35,8 +35,8 @@ void usage ()
 
 int main (int argc, char* argv[])
 {
-	std::string in = "data/gb6.jpg";
-	std::string out = "out/gb6.lms";
+	std::string in = "in.jpg";
+	std::string out = "out.lms";
 
 	/* Parse input and output file names if available,
 	   print usage () on error. */
