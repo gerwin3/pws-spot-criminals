@@ -489,10 +489,14 @@ void net_learn (const char* finloc, const char* foutloc)
 	printf (" [ info ] >> network saved\n");
 
 out:
-	net_free (net);
+	if (net)
+		net_free (net);
 
-	free (ps1);
-	free (ps0);
+	if (ps0)
+		free (ps0);
+
+	if (ps1)
+		free (ps1);
 }
 
 /*
@@ -543,7 +547,9 @@ int net_test (const char* f_lms_loc)
 	return out;
 
 out:
-	net_free (net);
+	if (net)
+		net_free (net);
+
 	return -1;
 }
 
@@ -558,7 +564,9 @@ int main (int argc, char* argv[])
 {
 #ifdef _DEBUG
 
-	/* nothing for now */
+	net_test ("in.lms");
+
+	getchar ();
 
 #else
 
