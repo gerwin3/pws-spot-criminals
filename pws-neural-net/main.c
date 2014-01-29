@@ -558,15 +558,7 @@ int main (int argc, char* argv[])
 {
 #ifdef _DEBUG
 
-	net_test ("data/gb0.lms");
-	net_test ("data/gb1.lms");
-	net_test ("data/gb2.lms");
-	net_test ("data/gb3.lms");
-	net_test ("data/gb4.lms");
-	net_test ("data/gb5.lms");
-	net_test ("data/gb6.lms");
-
-	getchar ();
+	/* nothing for now */
 
 #else
 
