@@ -1,11 +1,11 @@
 Spotting Criminals by Face
 ==========================
 
-This code is an attachment to a report on using ANN's to distinguish criminals by their facial features.
+This code is an attachment to a report on using ANN's to distinguish criminals by their facial features. Can a computer program recognize criminals by looking at their face? Yes, it's possible.
 
 It consists out of two programs:
  - *pws-img-prep* is responsible for preparing frontal facial pictures for
-   using them in the netwerk, essentially it converts the image files to
+   using them in the network, essentially it converts the image files to
    .lms files. **NOTE: The program must be fed with pictures that have a
    width-height ratio of 0.8!**
  - *pws-neural-net* can actually train the network on a big dataset of
